@@ -1,0 +1,6 @@
+newArticle, //*[@class = 'ion-compose']
+articleTitle, //*[@placeholder= 'Article Title']
+aboutArticle, "//*[@placeholder= \""What's this article about?\""]"
+articleDescription, //*[@placeholder= 'Write your article (in markdown)']
+tags , //*[@placeholder= 'Enter tags']
+publishArticle, //*[contains(text(), 'Publish Article')]

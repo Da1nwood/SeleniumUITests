@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+
+    compile 'com.google.guava:guava:25.+'
+
+    testCompile group: 'org.testng', name: 'testng', version: '7.3.0'
+
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.3'
+
+
+        compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.2'
+        compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
+}
